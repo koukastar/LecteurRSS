@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_favorite"
+        android:icon="@drawable/twotone_favorite_white_36dp"
+        app:showAsAction="always"
+        android:title="favoris" />
+
+
+    <item
+        android:id="@+id/menuA"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/twotone_http_white_48dp"
+        android:title="Choisir URL" />
+
+    <item
+        android:id="@+id/menuB"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/twotone_rss_feed_white_48dp"
+        android:title="Consulter Flux" />
+</menu>

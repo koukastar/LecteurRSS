@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+    <item
+        android:id="@+id/search"
+        android:icon="@android:drawable/ic_menu_search"
+        app:showAsAction="always|collapseActionView"
+        android:title="chercher"
+        app:actionViewClass="android.support.v7.widget.SearchView"/>
+    <item
+        android:id="@+id/action_favorite"
+        android:icon="@drawable/twotone_favorite_white_36dp"
+        app:showAsAction="always"
+        android:title="favoris" />
+    <item
+        android:id="@+id/action_back"
+        android:icon="@drawable/twotone_home_white_48dp"
+        app:showAsAction="always"
+        android:title="favoris" />
+
+
+</menu>
